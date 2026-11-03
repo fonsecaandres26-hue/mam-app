@@ -2,7 +2,7 @@
 // - Con internet: siempre carga la versión más reciente de la app (red primero).
 // - Sin internet: usa la copia guardada, así la app funciona offline.
 // - Si falta algún archivo, la instalación no se traba.
-const CACHE_NAME = "forja-mama-v8";
+const CACHE_NAME = "forja-mama-v9";
 const APP_SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
